@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="sticky">
+      <ul>
+        <li><a href="#j1">Contact</a></li>
+        <li><a href="#j2">About</a></li>
+        <li><a href="#j4">Time pass strategy</a></li>
+        <li><a href=#j3>Image gallery</a></li>
+
+      </ul>
+    </div>
+    
+    <div class="top-container">
+      <div class="column side">
+      <p><b>Please provide your details to calculate your BMI</b></p>
+        <form action="/action_page.php">
+        <label for="fname"><b>Height in meters</b></label>
+          <input type="text" id="fname" name="firstname" placeholder="Your height">
+
+          <label for="lname"><b>wieght in kgs</b></label>
+          <input type="text" id="lname" name="lastname" placeholder=" Your mass">
+
+          <label for="country"><b>Gender</b></label>
+          <select id="gender" name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+ <label for="fname"><b>BMI</b></label>
+          <input type="text" id="bmi" name="firstname" placeholder="BMI will appear here">
+          <input type="submit" value="Submit" onclick="solve()">
+        </form>
+        <p><b>BMI between 20 to 25 is considered as healthy, a BMI above 25 and a BMI below 20 is considered as overweight and underwieght respectively.</b></p>
+      </div>
+      <div class="column middle">
+        <img id="rcorners1" src="https://scontent.fjai1-2.fna.fbcdn.net/v/t1.0-9/p960x960/83954362_1029017294142612_3159437024507723776_o.jpg?_nc_cat=108&_nc_sid=85a577&_nc_ohc=SFMBQl_ZiKsAX8XoW0Y&_nc_ht=scontent.fjai1-2.fna&_nc_tp=6&oh=b5fff8f840e37c169f6e323c22c94f8a&oe=5EA6D853" alt="ashutosh fb" width="200" height="200" style="float:left;">
+        <div class="a">
+          <h2>Ashutosh Yadav</h2>
+          <h1>Phone:8824890946</h1>
+          <h1>Hostel 16</h1>
+          <br>
+          <br>
+
+        </div>
+        <br>
+        <img id="j1" src='https://cdn3.iconfinder.com/data/icons/facebook-ui-flat/48/Facebook_UI-03-512.png' width="100" height="100" style="float:left;width:80px;height:80px;" usemap="#workmap">
+        <map name="workmap">
+          <area shape="default" alt="Computer" href="computer.htm">
+        </map>
+
+        <img id="pinterest" src='https://cdn2.iconfinder.com/data/icons/pinterest-ui-colored/48/JD-03-512.png' width="100" height="100" style="float:left;width:80px;height:80px;" usemap="#workmap2">
+        <map name="workmap2">
+          <area shape="default" alt="Computer" href="computer.htm">
+        </map>
+
+        <img id="insta" src='https://cdn4.iconfinder.com/data/icons/logos-3/426/instagram-512.png' width="100" height="100" style="float:left;width:80px;height:80px;" usemap="#workmap3">
+        <map name="workmap3">
+          <area shape="default" alt="Computer" href="computer.htm">
+        </map>
+        <br><br><br><br>
+        <div><ins>
+            <h2 id="j2">
+              About Me
+            </h2>
+          </ins>
+          <h3 id="hide"> <b>I am a first year(under graduate) student pursuing B.tech in Engineering Physics from IIT Bombay.I have major interests in coding and sketching.This summer I am working on my Web Development skills also.
+            </b>
+          </h3>
+          <h2 id="j4"><ins>
+              WHAT I AM DOING CURRENTLY?
+            </ins></h2>
+          <h3 id="hide2"><b>
+              Currently I am at my home due to the corona virus Quarantine , Watching Ramayana and Mahabharata for 4 hours of the day.I am sitting and hoping that the lock-down will end soon so that I can enjoy my remaining 2 months of summer vacations.This is just to fill some space so that there will be something to scrollll....
+            </b>
+          </h3>
+        </div>
+        </div>
+        <h2 id="j3"><ins>Freshie Year Image Gallery</ins></h2>
+        <div class="gallery">
+          <a target="_blank" href="https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-9/p960x960/82496959_2998127640211643_4646433008226664448_o.jpg?_nc_cat=110&_nc_sid=8024bb&_nc_ohc=oiGn7p6iokkAX9bICOi&_nc_ht=scontent.fjai1-1.fna&_nc_tp=6&oh=2deb5f760df641030bc8aee900f8c3af&oe=5EA8E7F7">
+            <img src="https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-9/p960x960/82496959_2998127640211643_4646433008226664448_o.jpg?_nc_cat=110&_nc_sid=8024bb&_nc_ohc=oiGn7p6iokkAX9bICOi&_nc_ht=scontent.fjai1-1.fna&_nc_tp=6&oh=2deb5f760df641030bc8aee900f8c3af&oe=5EA8E7F7" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc"><b> The Austrailian team, techfest</b></div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="https://scontent.fjai1-2.fna.fbcdn.net/v/t1.0-9/p960x960/90914011_1068203570223984_4476019481994330112_o.jpg?_nc_cat=103&_nc_sid=dd7718&_nc_ohc=ZSTzgS_qTCQAX_UDRrh&_nc_ht=scontent.fjai1-2.fna&_nc_tp=6&oh=36897e0de41fbd714914b4ed84627c0e&oe=5EA73CFB">
+            <img src="https://scontent.fjai1-2.fna.fbcdn.net/v/t1.0-9/p960x960/90914011_1068203570223984_4476019481994330112_o.jpg?_nc_cat=103&_nc_sid=dd7718&_nc_ohc=ZSTzgS_qTCQAX_UDRrh&_nc_ht=scontent.fjai1-2.fna&_nc_tp=6&oh=36897e0de41fbd714914b4ed84627c0e&oe=5EA73CFB" alt="Forest" width="600" height="400">
+          </a>
+          <div class="desc"><b>Sketching is a great activity for liesure </b></div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-0/p180x540/72748168_930094597368216_6964499021918371840_o.jpg?_nc_cat=110&_nc_sid=dd9801&_nc_ohc=v-kaug6iZ70AX8Sx8eS&_nc_ht=scontent.fjai1-1.fna&_nc_tp=6&oh=e6417f4f9f2720626b7316c72419e953&oe=5EA6E11E">
+            <img src="https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-0/p180x540/72748168_930094597368216_6964499021918371840_o.jpg?_nc_cat=110&_nc_sid=dd9801&_nc_ohc=v-kaug6iZ70AX8Sx8eS&_nc_ht=scontent.fjai1-1.fna&_nc_tp=6&oh=e6417f4f9f2720626b7316c72419e953&oe=5EA6E11E" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc"><b>The department Trek to Kothaligarh</b></div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-9/p960x960/89029753_1055932374784437_2892318401185710080_o.jpg?_nc_cat=106&_nc_sid=8024bb&_nc_ohc=hLySlmigtEQAX__hQaF&_nc_ht=scontent.fjai1-1.fna&_nc_tp=6&oh=e97e61f11651f735ce2a794f997e36b8&oe=5EA96963 ">
+            <img src="https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-9/p960x960/89029753_1055932374784437_2892318401185710080_o.jpg?_nc_cat=106&_nc_sid=8024bb&_nc_ohc=hLySlmigtEQAX__hQaF&_nc_ht=scontent.fjai1-1.fna&_nc_tp=6&oh=e97e61f11651f735ce2a794f997e36b8&oe=5EA96963 " alt="Mountains" width="600" height="400">
+          </a>
+          <div class="desc"><b>Beach trip Memories!!</b></div>
+        </div>
+      </div>
+      
+
+      <div class="footer"><b>
+          <font size="4">
+            To know more about Me,use <a href="#j1">The Handles</a> given.</font>
+        </b>
+        </div>
+
+  </body>
+
+</html>
